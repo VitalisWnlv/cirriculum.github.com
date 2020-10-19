@@ -1,0 +1,333 @@
+body{
+    background-color:lightblue;
+    font-family: Raleway, sans-serif;
+}
+*{
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    display: flex;
+    width: 85%;
+    height: auto;
+    margin: 40px 70px 0px;
+}
+/* Navigation */
+nav
+{
+    display: inline-block;
+    width: 70%;
+} 
+nav ul
+{
+    list-style-type: none;
+    margin-top: 0px;
+} 
+nav li
+{
+    display: inline-block;
+    margin-right: 25px;
+} 
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+} 
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+/* bloc page CONTAINER 1*/
+#container{
+    width: 85%;
+    margin-left: 70px;
+    height: auto;
+}
+#bloc_name{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+#bloc_name div{
+    margin-right: 30px;
+    height: auto;
+}
+.reseau{
+    width: 5%;
+    border: 1px solid blue;
+}
+.nom{
+    width: 55%;
+    color: bisque;
+    background-color: black;
+}
+.nom div{
+    position: relative;
+    padding:3% 15% 4%;
+    width: 100%;
+    text-align: justify;
+}
+.nom div h1{
+    font-size: 60px;
+}
+.photo{
+    width: 35%;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+
+/*CONTAINER 2*/
+.content{
+    position: relative;
+    left: 11.6%;
+    width: 45.35%;
+    height: auto;
+    border: 1px solid black;
+    background-color: #fff;
+}
+.content div{
+    padding: 2% 8% 1%;
+    text-align: justify;
+}
+/* pour tous les titres*/
+.tiret {
+    height: 90px;
+    margin-bottom: 20px;
+}
+.tiret:before {
+    content: '';
+    width: 2px;
+    height: 80px;
+    background: black;
+    position: absolute;
+}
+.title h1 {
+    position: relative;
+    line-height: 1;
+    font-size: 52px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 0px;
+}
+
+/*Bloc About Us*/
+.AboutUs{
+    position: relative;
+    height: auto;
+}
+.text{
+    font-weight: bold;
+}
+.interet{
+    position: relative;
+    height: 200px;
+    background-color: aqua;
+}
+/*debut du bloc expérience*/
+.Experience{
+    position: relative;
+    height: auto;
+}
+.container-faq {
+    width: 100%;
+    height: auto;
+    margin: 10px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.questions {
+    margin: 0px -63px;
+    width: 124%;
+    height: auto
+}
+.visible-pannel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: lightblue;
+    border-radius: 10px;
+    position: relative;
+    z-index: 100;
+}
+.visible-pannel h2 {
+    padding: 10px 0px;
+    font-size: 21px
+}
+.visible-pannel img {
+    margin-right: 3px;
+    width: 25px;
+    cursor: pointer;
+}
+.toggle-pannel {
+    padding: 0px 15px;
+    height: 0px;
+    opacity: 0;
+}
+.toggle-pannel h4 {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.toggle-pannel p {
+    line-height: 1.5;
+}
+/*Fin du bloc expérience*/
+.Portfolio{
+    position: relative;
+    height: auto;
+    background-color: aqua;
+}
+/*debut du bloc Education*/
+.Education{
+    position: relative;
+    height: auto;
+}
+#knowledge{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.container-date{
+    height: auto;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.container-date div{
+    position: relative;
+    width: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: -3px -20px 127px;
+}
+.container-forme{
+    height: auto;
+    width:16%;
+    display: flex;
+    flex-direction: column;
+}
+.rond{
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    align-items: center;
+    margin:-6px -15px 10px ;
+}
+
+.mini-titre{
+    width: 70%;
+    font-size: 18px;
+    font-weight: 600;
+    margin: -9px -22px;
+}
+.tex{
+    font-size: 15px;
+    margin: 6px -91px 53px -20px;;
+}
+/* Bloc DE compétences*/
+.Skills{
+    position: relative;
+    height: auto;
+    background-color: aqua;
+    width: 100%;
+}
+.photoshop{
+    display: flex;
+    /* position: relative; */
+    padding-bottom: 20px;
+    height: auto;
+    width: 100%;
+    /* flex-direction: row; */
+}
+.un{
+    position: relative;
+    background-color: black;
+    width: 70%;
+    height: 21px;
+    margin-top: -2px;
+    color: #fff;
+    font-family: monospace;
+    font-size: 20px;
+}
+.un div{margin-top: -14px;}
+.deux{
+    background-color: #fff;
+    width: 30%;
+    height: 16px;
+    margin-top: 0px;
+}
+.percent{
+    width: 0%;
+    margin-top: -9px;
+}
+/*FIN DU BLOC DE compétences */
+.Cover{
+    position: relative;
+    height: auto;
+}
+
+/* Bloc DE CONTACT*/
+.Contact{
+    position: relative;
+    height: auto;
+    background-color: aqua
+}
+.form {
+    width: 124%;
+    margin-left: -70px;
+}
+.content-input-form input{
+    width: 100%;
+    height: 35px;
+    font-family: inherit;
+    margin-bottom: 6px;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #999;
+}
+.content-comment textarea{
+    height: auto;
+    width: 100%;
+    resize: none;
+}
+.content-form .form div{
+    position: relative;
+}
+.form div label{
+    position: absolute;
+    left: 36px;
+    font-size: 19px;
+    bottom: 18px;
+    pointer-events: none;
+    transition: .5s;
+}
+.content-form input:focus ~label,
+.content-form input:valid ~label{
+    left: 0;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
